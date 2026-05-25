@@ -201,7 +201,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <span className="text-[12px] text-[#8A8A93] uppercase tracking-wider block">البريد الإلكتروني</span>
-                      <span className="text-[15px] text-[#F5F0EC]">info@eurogen-syria.com</span>
+                      <span className="text-[15px] text-[#F5F0EC]">info@daligrouptr.com</span>
                     </div>
                   </div>
 
