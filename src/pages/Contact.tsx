@@ -181,7 +181,7 @@ export default function Contact() {
 
                 <div className="space-y-6">
                   <a
-                    href="https://wa.me/963935582732"
+                    href="https://wa.me/963956508777"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-start gap-4 group"
@@ -191,7 +191,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <span className="text-[12px] text-[#8A8A93] uppercase tracking-wider block">الهاتف / واتساب</span>
-                      <span className="text-[15px] text-[#F5F0EC] group-hover:text-[#4A5B6F] transition-colors">+963 935 582 732</span>
+                      <span className="text-[15px] text-[#F5F0EC] group-hover:text-[#4A5B6F] transition-colors">+963 956 508 777</span>
                     </div>
                   </a>
 
@@ -230,7 +230,7 @@ export default function Contact() {
                 {/* Quick WhatsApp CTA */}
                 <div className="mt-8 pt-6 border-t border-[rgba(245,240,236,0.08)]">
                   <a
-                    href="https://wa.me/963935582732"
+                    href="https://wa.me/963956508777"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2 bg-[#25D366] text-white text-sm font-medium py-3.5 rounded-md hover:bg-[#22c35e] transition-colors w-full"
