@@ -82,7 +82,7 @@ export default function HeroSection() {
             }`}
             style={{ fontFamily: 'var(--font-body)' }}
           >
-            مولدات EUROGEN — الوكيل الحصري في سوريا شركة DALI Group Engineering
+            مولدات EUROGEN — الوكيل الحصري في سوريا: شركتا DALI Group Engineering و ONYX
           </p>
 
           {/* CTAs */}
