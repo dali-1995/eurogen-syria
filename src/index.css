@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 4%;
+    --foreground: 30 20% 95%;
+    --card: 240 5% 9%;
+    --card-foreground: 30 20% 95%;
+    --popover: 240 5% 9%;
+    --popover-foreground: 30 20% 95%;
+    --primary: 210 20% 36%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 4% 13%;
+    --secondary-foreground: 30 20% 95%;
+    --muted: 240 4% 13%;
+    --muted-foreground: 240 4% 57%;
+    --accent: 210 20% 36%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 30 20% 95% / 0.08;
+    --input: 240 4% 13%;
+    --ring: 210 20% 36%;
+    --radius: 0.5rem;
+
+    --black: #0A0A0A;
+    --surface: #151517;
+    --surface-light: #1E1E22;
+    --text-primary: #F5F0EC;
+    --text-secondary: #8A8A93;
+    --steel-blue: #4A5B6F;
+    --steel-light: #5D7A99;
+    --border-color: rgba(245, 240, 236, 0.08);
+    --overlay: rgba(10, 10, 10, 0.75);
+    --amber: #B8860B;
+
+    --font-display: 'Cormorant Garamond', 'Tajawal', serif;
+    --font-body: 'Inter', 'Tajawal', sans-serif;
+    --font-arabic: 'Tajawal', 'Inter', sans-serif;
+
+    --shader-intensity: 1.0;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  body {
+    @apply bg-[#0A0A0A] text-[#F5F0EC] antialiased;
+    font-family: var(--font-body);
+    letter-spacing: 0.02em;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    letter-spacing: 0.04em;
+  }
+
+  [lang="ar"] {
+    font-family: var(--font-arabic);
+  }
+
+  ::selection {
+    background: rgba(74, 91, 111, 0.4);
+    color: #F5F0EC;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-body {
+    font-family: var(--font-body);
+  }
+
+  .font-arabic {
+    font-family: var(--font-arabic);
+  }
+
+  .text-steel {
+    color: var(--steel-blue);
+  }
+
+  .bg-steel {
+    background-color: var(--steel-blue);
+  }
+
+  .border-steel {
+    border-color: var(--steel-blue);
+  }
+
+  .text-secondary-muted {
+    color: var(--text-secondary);
+  }
+
+  .bg-surface {
+    background-color: var(--surface);
+  }
+
+  .bg-surface-light {
+    background-color: var(--surface-light);
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
